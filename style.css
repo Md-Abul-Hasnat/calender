@@ -101,3 +101,30 @@ body {
   background-color: white;
   color: black;
 }
+
+@media screen and (max-width: 630px) {
+  .calender {
+    width: 95%;
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .head h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .head p {
+    font-size: 1rem;
+  }
+  .days h3 {
+    font-size: 1.1rem;
+  }
+  .dates h4 {
+    font-size: 1.1rem;
+  }
+  .head i {
+    font-size: 1.2rem;
+  }
+}
