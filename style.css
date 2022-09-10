@@ -88,9 +88,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid transparent;
   border-radius: 2px;
   cursor: default;
+  border: 1px solid white;
 }
 
 .dates h4:hover:not(.empty) {
@@ -104,12 +104,16 @@ body {
 
 @media screen and (max-width: 630px) {
   .calender {
-    width: 95%;
+    width: 90%;
     height: 90vh;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
+  .dates {
+    column-gap: 3px;
+  }
+
   .head h2 {
     font-size: 1.5rem;
     margin-bottom: 15px;
