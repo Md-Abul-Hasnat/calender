@@ -145,7 +145,7 @@ body h1 {
 @media screen and (max-width: 400px) {
   .calender {
     width: 90%;
-    height: 80vh;
+    height: 70vh;
   }
   .head {
     height: 20%;
