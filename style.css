@@ -143,11 +143,16 @@ body h1 {
 }
 
 @media screen and (max-width: 400px) {
+  .calender {
+    width: 90%;
+    height: 80vh;
+  }
   .head {
     height: 20%;
   }
   .dates {
-    height: 60%;
+    height: 63%;
+    row-gap: 0px;
   }
   .dates h4 {
     height: 45px;
